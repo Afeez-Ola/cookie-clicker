@@ -59,5 +59,5 @@ while True:
         buy_item(item_to_buy_key)
         print("Buying item:", item_to_buy_key)
     time.sleep(1)
-    print("This is after 5 seconds")
+    print("This is after 1 second")
     clicks_per_second += 100

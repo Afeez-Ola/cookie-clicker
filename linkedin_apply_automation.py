@@ -19,8 +19,8 @@ login_link = driver.find_element(By.CSS_SELECTOR,
 login_link.click()
 email_field = driver.find_element(By.NAME, "session_key")
 password_field = driver.find_element(By.NAME, "session_password")
-email_address = "afeezbolajiola@gmail.com"
-password = "Morenigbade1$"
+email_address = "your email address"
+password = "your password$"
 
 email_field.send_keys(email_address)
 password_field.send_keys(password)
